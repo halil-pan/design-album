@@ -42,6 +42,7 @@ specifiers:
   vue: ^3.2.31
   vue-demi: ^0.12.1
   vue-i18n: ^9.1.9
+  vue-my-photos: ^3.0.1
   vue-router: ^4.0.12
   vue-tsc: ^0.31.4
   vue3-picture-swipe: ^3.0.5
@@ -55,6 +56,7 @@ dependencies:
   vue: 3.2.31
   vue-demi: 0.12.1_vue@3.2.31
   vue-i18n: 9.1.9_vue@3.2.31
+  vue-my-photos: registry.npmmirror.com/vue-my-photos/3.0.1
   vue-router: 4.0.12_vue@3.2.31
   vue3-picture-swipe: registry.npmmirror.com/vue3-picture-swipe/3.0.5
 
@@ -2070,7 +2072,7 @@ packages:
       estree-walker: 2.0.2
       magic-string: 0.25.7
       postcss: 8.4.5
-      source-map: 0.6.1
+      source-map: registry.npmmirror.com/source-map/0.6.1
     dev: true
 
   /@vue/compiler-sfc/3.2.31:
@@ -3685,7 +3687,7 @@ packages:
     dependencies:
       acorn: 8.7.0
       acorn-jsx: 5.3.2_acorn@8.7.0
-      eslint-visitor-keys: 3.2.0
+      eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys/3.3.0
     dev: true
 
   /espree/9.3.1:
@@ -7105,10 +7107,10 @@ packages:
       debug: 4.3.3
       eslint: 8.9.0
       eslint-scope: 7.1.0
-      eslint-visitor-keys: 3.2.0
+      eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys/3.3.0
       espree: 9.3.0
       esquery: 1.4.0
-      lodash: 4.17.21
+      lodash: registry.npmmirror.com/lodash/4.17.21
       semver: 7.3.5
     transitivePeerDependencies:
       - supports-color
@@ -7997,6 +7999,13 @@ packages:
     dependencies:
       whatwg-url: 7.1.0
     dev: true
+
+  registry.npmmirror.com/vue-my-photos/3.0.1:
+    resolution: {integrity: sha512-zJjBttmDyF6+IKRp+QTDus2S8ESeiOl02UkAqCyW8iOkKQrwPA/SiTBmNGTY7z5Itcd+M4rHcDxCTVCOWL5s1A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-my-photos/-/vue-my-photos-3.0.1.tgz}
+    name: vue-my-photos
+    version: 3.0.1
+    engines: {node: '>=10'}
+    dev: false
 
   registry.npmmirror.com/vue3-picture-swipe/3.0.5:
     resolution: {integrity: sha512-AhI4SmXeniVei26o29e4zst6PUtLAZLZuYVmnijkWwWf4BIQMaHpZTTAKaMsCkRoJK/UJztbTdpdR9c0CW3s8Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue3-picture-swipe/-/vue3-picture-swipe-3.0.5.tgz}
